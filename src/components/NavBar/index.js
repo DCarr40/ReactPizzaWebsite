@@ -1,11 +1,15 @@
 import React from "react";
-import { Nav, NavLink } from "./NavbarStyledComponents";
+import { Nav, NavIcon, NavLink, Bars } from "./NavbarStyledComponents";
 
 const Navbar = () => {
   return (
     <div>
       <Nav>
         <NavLink to="/">Pizza</NavLink>
+        <NavIcon>
+          <p>Menu</p>
+          <Bars />
+        </NavIcon>
       </Nav>
     </div>
   );
