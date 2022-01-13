@@ -32,7 +32,6 @@ export const Icon = styled.div`
 
 export const RewardsIcon = styled(FaMedal)`
   color: red;
-  align-items: left;
 `;
 
 export const CloseIcon = styled(FaTimes)`
