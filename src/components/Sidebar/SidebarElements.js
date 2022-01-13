@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { FaTimes } from "react-icons/fa";
+import { FaMedal, FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -28,6 +28,11 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
+`;
+
+export const RewardsIcon = styled(FaMedal)`
+  color: red;
+  align-items: left;
 `;
 
 export const CloseIcon = styled(FaTimes)`

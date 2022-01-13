@@ -2,6 +2,7 @@ import React from "react";
 import {
   SidebarContainer,
   Icon,
+  RewardsIcon,
   CloseIcon,
   SidebarMenu,
   SidebarLink,
@@ -13,7 +14,8 @@ const Sidebar = () => {
   return (
     <SidebarContainer>
       <Icon>
-        <CloseIcon></CloseIcon>
+        <RewardsIcon />
+        <CloseIcon />
       </Icon>
       <SidebarMenu>
         <SidebarLink to="./">Pizza</SidebarLink>
