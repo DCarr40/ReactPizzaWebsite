@@ -9,11 +9,4 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const localStyle = createGlobalStyle`
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: "Kanit", sans-serit;
-    }
-`;
+test;
